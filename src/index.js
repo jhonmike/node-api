@@ -4,12 +4,12 @@ import config from './config';
 import * as router from './router';
 
 router.register('/', (req, res) => {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Hello World');
 });
 
 router.register('/page', (req, res) => {
-  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.writeHead(200, { 'Content-Type': 'text/plain' });
   res.end('Hello First Page');
 });
 
